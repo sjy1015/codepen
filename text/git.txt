@@ -1,0 +1,41 @@
+https://github.com/sjy1015/one.git
+
+https://sjy1015.github.io/one/
+
+
+폴더 처음 업로드할때
+git init
+
+git branch -M main
+
+git remote add origin (폴더 주소)
+
+git add .
+
+git commit -m "version1" <-- 여기까지 헤드 단계
+
+git push origin main <-- git push 원격저장소주소 브랜치명 
+
+
+이후로 업로드할때
+
+gid add .
+
+git commit -m "version2"
+
+git push origin main
+
+
+git에 있는 이미지 링크를 쓸 때
+
+올린 후에 세팅 페이지 가서 세이브 한걸로 주소 만든 후에 그 주소 밑에 폴더와 파일명을 적으면 된다
+
+https://sjy1015.github.io/codepen/mobile1/toggle_button.png
+이런 식으로 
+
+
+다운로드받기
+git init로 초기화 
+hit branch -M main 해서 메인으로 변경
+git remote add origin 주소. 이건 원하는 판의 <>code에 있다 이걸로 연결 https://github.com/sjy1015/codepen.git
+git pull origin main 해서 받기
